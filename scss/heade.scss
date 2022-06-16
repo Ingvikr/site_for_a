@@ -6,6 +6,7 @@
             .heade_ro {
                 display: flex;
                 flex-direction: column;
+                flex-wrap: wrap;
                 border: 7px solid darkgreen;
                 .na {
                     border: 7px solid darkgreen;
@@ -13,8 +14,35 @@
                         display: flex;
                         flex-direction: row;
                         justify-content: flex-end;
+                        flex-wrap: wrap;
                         column-gap: 17px;
                         border: 7px solid darkgreen;
+
+                        @include poi_scree1 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            flex-wrap: wrap;
+                            column-gap: 17px;
+                            border: 7px solid darkgreen;  
+                        }
+                        @include poi_scree2 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            column-gap: 17px;
+                            flex-wrap: wrap;
+                            border: 7px solid darkgreen;
+                        }
+
+                        @include poi_scree3 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            column-gap: 17px;
+                            flex-wrap: wrap;
+                            border: 7px solid darkgreen; 
+                        }
                         .na_tx_1_tx1 {
                             font-style: normal;
                             font-size: 19px;
@@ -22,6 +50,29 @@
                             font-family: "Source Serif Pro", sans-serif;
                             border: 7px solid darkgreen;
                             margin-right: auto;
+                            @include poi_scree1 {
+                                font-style: normal;
+                                font-size: 19px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+                            @include poi_scree2 {
+                                font-style: normal;
+                                font-size: 19px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                border: 7px solid darkgreen;
+                            }
+
+                            @include poi_scree3 {
+                                font-style: normal;
+                                font-size: 19px;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                border: 7px solid darkgreen;
+                                align-self: center;
+                            }
                         }
 
                         .na_tx_1_tx2 {
@@ -55,6 +106,111 @@
                                 bottom: 3px;
                                 border-radius: 75px;
                                 background-color: black;
+                            }
+
+                            @include poi_scree1 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                            }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
+
+                            @include poi_scree2 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                                }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
+
+                            @include poi_scree3 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                opacity: 0%;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    opacity: 0%;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                                }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    opacity: 0%;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
                             }
                         }
 
@@ -91,6 +247,109 @@
                                 background-color: black;
                             }
                             border: 7px solid darkgreen;
+                            @include poi_scree1 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                            }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
+                            @include poi_scree2 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                                }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
+
+                            @include poi_scree3 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                opacity: 0%;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    opacity: 0%;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                                }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    opacity: 0%;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
                         }
 
                         .na_tx_1_tx4 {
@@ -126,6 +385,109 @@
                                 background-color: black;
                             }
                             border: 7px solid darkgreen;
+                            @include poi_scree1 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                            }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
+                            @include poi_scree2 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                                }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
+
+                            @include poi_scree3 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                opacity: 0%;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    opacity: 0%;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                                }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    opacity: 0%;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
                         }
 
                         .na_tx_1_tx5 {
@@ -161,29 +523,109 @@
                                 background-color: black;
                             }
                             border: 7px solid darkgreen;
-                        }
-                    }
+                            @include poi_scree1 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                            }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
+                            @include poi_scree2 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                                }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
 
-                    .na_tx_2 {
-                        border: 7px solid darkgreen;
-                        .na_tx_2_tx1 {
-                            border: 7px solid darkgreen;
-                        }
-
-                        .na_tx_2_tx2 {
-                            border: 7px solid darkgreen;
-                        }
-
-                        .na_tx_2_tx3 {
-                            border: 7px solid darkgreen;
-                        }
-
-                        .na_tx_2_tx4 {
-                            border: 7px solid darkgreen;   
-                        }
-
-                        .na_tx_2_tx5 {
-                            border: 7px solid darkgreen;
+                            @include poi_scree3 {
+                                position: relative;
+                                font-style: normal;
+                                font-family: "Arimo", sans-serif;
+                                color: black;
+                                cursor: pointer;
+                                font-size: 15px;
+                                border: 7px solid darkgreen;
+                                transition: 0.5s;
+                                opacity: 0%;
+                                &::after {
+                                    content: " ";
+                                    position: absolute;
+                                    width: 0px;
+                                    height: 5px;
+                                    left: 0px;
+                                    opacity: 0%;
+                                    bottom: 3px;
+                                    cursor: pointer;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                    transition: 0.5s;
+                                }
+                                &:hover::after {
+                                    content: " ";
+                                    position: absolute;
+                                    cursor: pointer;
+                                    opacity: 0%;
+                                    width: 57px;
+                                    height: 5px;
+                                    left: 0px;
+                                    bottom: 3px;
+                                    border-radius: 75px;
+                                    background-color: black;
+                                }
+                            }
                         }
                     }
                 }
