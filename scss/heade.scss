@@ -1,22 +1,19 @@
 .wrappe {
     .blo {
-        border: 7px solid darkblue;
         .heade {
-            border: 7px solid darkgreen;
             .heade_ro {
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                border: 7px solid darkgreen;
+                flex-basis: 300px;
+                background-color: #3E3E3E;
                 .na {
-                    border: 7px solid darkgreen;
                     .na_tx_1 {
                         display: flex;
                         flex-direction: row;
                         justify-content: flex-end;
                         flex-wrap: wrap;
                         column-gap: 17px;
-                        border: 7px solid darkgreen;
 
                         @include poi_scree1 {
                             display: flex;
@@ -24,7 +21,6 @@
                             justify-content: flex-end;
                             flex-wrap: wrap;
                             column-gap: 17px;
-                            border: 7px solid darkgreen;  
                         }
                         @include poi_scree2 {
                             display: flex;
@@ -32,7 +28,6 @@
                             justify-content: flex-start;
                             column-gap: 17px;
                             flex-wrap: wrap;
-                            border: 7px solid darkgreen;
                         }
 
                         @include poi_scree3 {
@@ -41,36 +36,31 @@
                             justify-content: center;
                             column-gap: 17px;
                             flex-wrap: wrap;
-                            border: 7px solid darkgreen; 
                         }
                         .na_tx_1_tx1 {
                             font-style: normal;
                             font-size: 19px;
-                            color: black;
+                            color: white;
                             font-family: "Source Serif Pro", sans-serif;
-                            border: 7px solid darkgreen;
                             margin-right: auto;
                             @include poi_scree1 {
                                 font-style: normal;
                                 font-size: 19px;
-                                color: black;
+                                color: white;
                                 font-family: "Source Serif Pro", sans-serif;
-                                border: 7px solid darkgreen;
                             }
                             @include poi_scree2 {
                                 font-style: normal;
                                 font-size: 19px;
-                                color: black;
+                                color: white;
                                 font-family: "Source Serif Pro", sans-serif;
-                                border: 7px solid darkgreen;
                             }
 
                             @include poi_scree3 {
                                 font-style: normal;
                                 font-size: 19px;
-                                color: black;
+                                color: white;
                                 font-family: "Source Serif Pro", sans-serif;
-                                border: 7px solid darkgreen;
                                 align-self: center;
                             }
                         }
@@ -79,10 +69,9 @@
                             position: relative;
                             font-style: normal;
                             font-family: "Arimo", sans-serif;
-                            color: black;
+                            color: white;
                             cursor: pointer;
                             font-size: 15px;
-                            border: 7px solid darkgreen;
                             transition: 0.5s;
                             &::after {
                                 content: " ";
@@ -93,7 +82,7 @@
                                 bottom: 3px;
                                 cursor: pointer;
                                 border-radius: 75px;
-                                background-color: black;
+                                background-color: white;
                                 transition: 0.5s;
                             }
                             &:hover::after {
@@ -105,17 +94,16 @@
                                 left: 0px;
                                 bottom: 3px;
                                 border-radius: 75px;
-                                background-color: black;
+                                background-color: white;
                             }
 
                             @include poi_scree1 {
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -126,7 +114,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                             }
                                 &:hover::after {
@@ -138,7 +126,7 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
 
@@ -146,10 +134,9 @@
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -160,7 +147,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
                                 &:hover::after {
@@ -172,7 +159,7 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
 
@@ -180,10 +167,9 @@
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 opacity: 0%;
                                 &::after {
@@ -196,7 +182,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
                                 &:hover::after {
@@ -209,7 +195,7 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
                         }
@@ -218,10 +204,9 @@
                             position: relative;
                             font-style: normal;
                             font-family: "Arimo", sans-serif;
-                            color: black;
+                            color: white;
                             cursor: pointer;
                             font-size: 15px;
-                            border: 7px solid darkgreen;
                             transition: 0.5s;
                             &::after {
                                 content: " ";
@@ -232,7 +217,7 @@
                                 bottom: 3px;
                                 cursor: pointer;
                                 border-radius: 75px;
-                                background-color: black;
+                                background-color: white;
                                 transition: 0.5s;
                             }
                             &:hover::after {
@@ -244,17 +229,15 @@
                                 left: 0px;
                                 bottom: 3px;
                                 border-radius: 75px;
-                                background-color: black;
+                                background-color: white;
                             }
-                            border: 7px solid darkgreen;
                             @include poi_scree1 {
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -265,7 +248,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                             }
                                 &:hover::after {
@@ -277,17 +260,16 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
                             @include poi_scree2 {
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -298,7 +280,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
                                 &:hover::after {
@@ -310,7 +292,7 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
 
@@ -318,10 +300,9 @@
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 opacity: 0%;
                                 &::after {
@@ -334,7 +315,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
                                 &:hover::after {
@@ -347,7 +328,7 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
                         }
@@ -356,10 +337,9 @@
                             position: relative;
                             font-style: normal;
                             font-family: "Arimo", sans-serif;
-                            color: black;
+                            color: white;
                             cursor: pointer;
                             font-size: 15px;
-                            border: 7px solid darkgreen;
                             transition: 0.5s;
                             &::after {
                                 content: " ";
@@ -370,7 +350,7 @@
                                 bottom: 3px;
                                 cursor: pointer;
                                 border-radius: 75px;
-                                background-color: black;
+                                background-color: white;
                                 transition: 0.5s;
                             }
                             &:hover::after {
@@ -382,17 +362,15 @@
                                 left: 0px;
                                 bottom: 3px;
                                 border-radius: 75px;
-                                background-color: black;
+                                background-color: white;
                             }
-                            border: 7px solid darkgreen;
                             @include poi_scree1 {
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -403,7 +381,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                             }
                                 &:hover::after {
@@ -415,17 +393,16 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
                             @include poi_scree2 {
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -436,7 +413,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
                                 &:hover::after {
@@ -448,7 +425,7 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
 
@@ -456,10 +433,9 @@
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 opacity: 0%;
                                 &::after {
@@ -472,7 +448,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
                                 &:hover::after {
@@ -485,7 +461,7 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
                         }
@@ -494,10 +470,9 @@
                             position: relative;
                             font-style: normal;
                             font-family: "Arimo", sans-serif;
-                            color: black;
+                            color: white;
                             cursor: pointer;
                             font-size: 15px;
-                            border: 7px solid darkgreen;
                             transition: 0.5s;
                             &::after {
                                 content: " ";
@@ -508,7 +483,7 @@
                                 bottom: 3px;
                                 cursor: pointer;
                                 border-radius: 75px;
-                                background-color: black;
+                                background-color: white;
                                 transition: 0.5s;
                             }
                             &:hover::after {
@@ -520,17 +495,15 @@
                                 left: 0px;
                                 bottom: 3px;
                                 border-radius: 75px;
-                                background-color: black;
+                                background-color: white;
                             }
-                            border: 7px solid darkgreen;
                             @include poi_scree1 {
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -541,7 +514,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                             }
                                 &:hover::after {
@@ -553,17 +526,16 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
                             @include poi_scree2 {
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 &::after {
                                     content: " ";
@@ -574,7 +546,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
                                 &:hover::after {
@@ -586,7 +558,7 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
 
@@ -594,10 +566,9 @@
                                 position: relative;
                                 font-style: normal;
                                 font-family: "Arimo", sans-serif;
-                                color: black;
+                                color: white;
                                 cursor: pointer;
                                 font-size: 15px;
-                                border: 7px solid darkgreen;
                                 transition: 0.5s;
                                 opacity: 0%;
                                 &::after {
@@ -610,7 +581,7 @@
                                     bottom: 3px;
                                     cursor: pointer;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                     transition: 0.5s;
                                 }
                                 &:hover::after {
@@ -623,7 +594,7 @@
                                     left: 0px;
                                     bottom: 3px;
                                     border-radius: 75px;
-                                    background-color: black;
+                                    background-color: white;
                                 }
                             }
                         }

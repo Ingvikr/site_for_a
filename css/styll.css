@@ -6,12 +6,6 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-.wrappe .blo {
-  border: 7px solid darkblue;
-}
-.wrappe .blo .heade {
-  border: 7px solid darkgreen;
-}
 .wrappe .blo .heade .heade_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,10 +16,9 @@
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 7px solid darkgreen;
-}
-.wrappe .blo .heade .heade_ro .na {
-  border: 7px solid darkgreen;
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+  background-color: #3E3E3E;
 }
 .wrappe .blo .heade .heade_ro .na .na_tx_1 {
   display: -webkit-box;
@@ -43,7 +36,6 @@
   -webkit-column-gap: 17px;
      -moz-column-gap: 17px;
           column-gap: 17px;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1440px) {
   .wrappe .blo .heade .heade_ro .na .na_tx_1 {
@@ -62,7 +54,6 @@
     -webkit-column-gap: 17px;
        -moz-column-gap: 17px;
             column-gap: 17px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 1024px) {
@@ -82,7 +73,6 @@
             column-gap: 17px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -102,42 +92,37 @@
             column-gap: 17px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    border: 7px solid darkgreen;
   }
 }
 .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx1 {
   font-style: normal;
   font-size: 19px;
-  color: black;
+  color: white;
   font-family: "Source Serif Pro", sans-serif;
-  border: 7px solid darkgreen;
   margin-right: auto;
 }
 @media (max-width: 1440px) {
   .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx1 {
     font-style: normal;
     font-size: 19px;
-    color: black;
+    color: white;
     font-family: "Source Serif Pro", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 1024px) {
   .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx1 {
     font-style: normal;
     font-size: 19px;
-    color: black;
+    color: white;
     font-family: "Source Serif Pro", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
   .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx1 {
     font-style: normal;
     font-size: 19px;
-    color: black;
+    color: white;
     font-family: "Source Serif Pro", sans-serif;
-    border: 7px solid darkgreen;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -147,10 +132,9 @@
   position: relative;
   font-style: normal;
   font-family: "Arimo", sans-serif;
-  color: black;
+  color: white;
   cursor: pointer;
   font-size: 15px;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -163,7 +147,7 @@
   bottom: 3px;
   cursor: pointer;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -176,17 +160,16 @@
   left: 0px;
   bottom: 3px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1440px) {
   .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx2 {
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -199,7 +182,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -212,7 +195,7 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 1024px) {
@@ -220,10 +203,9 @@
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -236,7 +218,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -249,7 +231,7 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
@@ -257,10 +239,9 @@
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     opacity: 0%;
@@ -275,7 +256,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -289,20 +270,18 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx3 {
   position: relative;
   font-style: normal;
   font-family: "Arimo", sans-serif;
-  color: black;
+  color: white;
   cursor: pointer;
   font-size: 15px;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border: 7px solid darkgreen;
 }
 .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx3::after {
   content: " ";
@@ -313,7 +292,7 @@
   bottom: 3px;
   cursor: pointer;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -326,17 +305,16 @@
   left: 0px;
   bottom: 3px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1440px) {
   .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx3 {
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -349,7 +327,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -362,7 +340,7 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 1024px) {
@@ -370,10 +348,9 @@
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -386,7 +363,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -399,7 +376,7 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
@@ -407,10 +384,9 @@
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     opacity: 0%;
@@ -425,7 +401,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -439,20 +415,18 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx4 {
   position: relative;
   font-style: normal;
   font-family: "Arimo", sans-serif;
-  color: black;
+  color: white;
   cursor: pointer;
   font-size: 15px;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border: 7px solid darkgreen;
 }
 .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx4::after {
   content: " ";
@@ -463,7 +437,7 @@
   bottom: 3px;
   cursor: pointer;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -476,17 +450,16 @@
   left: 0px;
   bottom: 3px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1440px) {
   .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx4 {
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -499,7 +472,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -512,7 +485,7 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 1024px) {
@@ -520,10 +493,9 @@
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -536,7 +508,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -549,7 +521,7 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
@@ -557,10 +529,9 @@
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     opacity: 0%;
@@ -575,7 +546,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -589,20 +560,18 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx5 {
   position: relative;
   font-style: normal;
   font-family: "Arimo", sans-serif;
-  color: black;
+  color: white;
   cursor: pointer;
   font-size: 15px;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border: 7px solid darkgreen;
 }
 .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx5::after {
   content: " ";
@@ -613,7 +582,7 @@
   bottom: 3px;
   cursor: pointer;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -626,17 +595,16 @@
   left: 0px;
   bottom: 3px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1440px) {
   .wrappe .blo .heade .heade_ro .na .na_tx_1 .na_tx_1_tx5 {
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -649,7 +617,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -662,7 +630,7 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 1024px) {
@@ -670,10 +638,9 @@
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -686,7 +653,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -699,7 +666,7 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
@@ -707,10 +674,9 @@
     position: relative;
     font-style: normal;
     font-family: "Arimo", sans-serif;
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 15px;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     opacity: 0%;
@@ -725,7 +691,7 @@
     bottom: 3px;
     cursor: pointer;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -739,13 +705,10 @@
     left: 0px;
     bottom: 3px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 
-.mai {
-  border: 7px solid darkblue;
-}
 .mai .mai_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -754,10 +717,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 7px solid darkgreen;
-}
-.mai .mai_ro .mai_ro_descr1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr1 .mai_ro_descr1_ro {
   display: -webkit-box;
@@ -767,17 +726,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 7px solid darkgreen;
+  background-color: #3E3E3E;
 }
 .mai .mai_ro .mai_ro_descr1 .mai_ro_descr1_ro .mai_ro_descr1_ro_tx1 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   font-style: normal;
-  color: black;
+  color: white;
   font-size: 17px;
   font-family: "STIX Two Text", sans-serif;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr1 .mai_ro_descr1_ro .mai_ro_descr1_ro_tx1 {
@@ -785,10 +743,9 @@
         -ms-grid-row-align: center;
         align-self: center;
     font-style: normal;
-    color: black;
+    color: white;
     font-size: 17px;
     font-family: "STIX Two Text", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -796,10 +753,9 @@
     -ms-flex-item-align: start;
         align-self: flex-start;
     font-style: normal;
-    color: black;
+    color: white;
     font-size: 17px;
     font-family: "STIX Two Text", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -807,17 +763,16 @@
     -ms-flex-item-align: start;
         align-self: flex-start;
     font-style: normal;
-    color: black;
+    color: white;
     font-size: 17px;
     font-family: "STIX Two Text", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr1 .mai_ro_descr1_ro .mai_ro_descr1_ro_tx1 .mai_ro_descr1_ro_tx1_tx1 {
   font-style: normal;
   font-size: 17px;
   font-family: "Source Serif Pro", sans-serif;
-  color: black;
+  color: white;
 }
 .mai .mai_ro .mai_ro_descr1 .mai_ro_descr1_ro .mai_ro_descr1_ro_tx2 {
   -ms-flex-item-align: start;
@@ -826,7 +781,6 @@
   font-family: "Source Sans 3", sans-serif;
   color: #BDBDBD;
   font-size: 15px;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr1 .mai_ro_descr1_ro .mai_ro_descr1_ro_tx2 {
@@ -836,7 +790,6 @@
     font-family: "Source Sans 3", sans-serif;
     color: #BDBDBD;
     font-size: 15px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -848,7 +801,6 @@
     font-family: "Source Sans 3", sans-serif;
     color: #BDBDBD;
     font-size: 15px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -859,7 +811,6 @@
     font-family: "Source Sans 3", sans-serif;
     color: #BDBDBD;
     font-size: 15px;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr1 .mai_ro_descr1_ro .mai_ro_descr1_ro_but1 {
@@ -872,7 +823,7 @@
   font-size: 17px;
   background-color: transparent;
   cursor: pointer;
-  color: black;
+  color: white;
   font-family: "Source Serif 4", sans-serif;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -885,7 +836,7 @@
   font-style: normal;
   font-size: 17px;
   background-color: #F59E6D;
-  color: black;
+  color: white;
   font-family: "Source Serif 4", sans-serif;
 }
 @media (max-width: 1024px) {
@@ -899,7 +850,7 @@
     font-size: 17px;
     background-color: transparent;
     cursor: pointer;
-    color: black;
+    color: white;
     font-family: "Source Serif 4", sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -912,7 +863,7 @@
     font-style: normal;
     font-size: 17px;
     background-color: #F59E6D;
-    color: black;
+    color: white;
     font-family: "Source Serif 4", sans-serif;
   }
 }
@@ -941,7 +892,7 @@
     font-style: normal;
     font-size: 17px;
     background-color: #F59E6D;
-    color: black;
+    color: white;
     font-family: "Source Serif 4", sans-serif;
   }
 }
@@ -956,7 +907,7 @@
     font-size: 17px;
     background-color: transparent;
     cursor: pointer;
-    color: black;
+    color: white;
     font-family: "Source Serif 4", sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -969,12 +920,9 @@
     font-style: normal;
     font-size: 17px;
     background-color: #F59E6D;
-    color: black;
+    color: white;
     font-family: "Source Serif 4", sans-serif;
   }
-}
-.mai .mai_ro .mai_ro_descr2 {
-  border: 7px solid darkblue;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro {
   display: -webkit-box;
@@ -984,7 +932,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_tx1 {
   -ms-flex-item-align: center;
@@ -994,16 +941,12 @@
   color: black;
   font-size: 17px;
   font-family: "IBM Plex Serif", sans-serif;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_tx1 .mai_ro_descr2_ro_tx1_tx1 {
   font-style: normal;
   color: black;
   font-size: 17px;
   font-family: "Source Serif Pro", sans-serif;
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro {
   display: -webkit-box;
@@ -1018,7 +961,6 @@
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 {
   display: -webkit-box;
@@ -1035,7 +977,6 @@
           justify-content: space-between;
   border-radius: 9px;
   row-gap: 30px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 {
   display: -webkit-box;
@@ -1048,7 +989,6 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   row-gap: 31px;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 {
@@ -1059,8 +999,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    row-gap: 31px;
-    border: 7px solid darkgreen;
+    row-gap: 67px;
   }
 }
 @media (max-width: 768px) {
@@ -1072,8 +1011,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    row-gap: 59px;
-    border: 7px solid darkgreen;
+    row-gap: 131px;
   }
 }
 @media (max-width: 425px) {
@@ -1085,8 +1023,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    row-gap: 75px;
-    border: 7px solid darkgreen;
+    row-gap: 159px;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro {
@@ -1102,13 +1039,11 @@
   max-width: 403px;
   border-radius: 9px;
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro:hover {
   border-radius: 9px;
-  border: 7px solid darkgreen;
   cursor: pointer;
   -webkit-box-shadow: 0px 1px 4px 4px black;
           box-shadow: 0px 1px 4px 4px black;
@@ -1119,7 +1054,6 @@
       align-self: center;
   width: 190px;
   height: 175px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_tx1 {
   -ms-flex-item-align: center;
@@ -1129,7 +1063,6 @@
   font-size: 17px;
   color: black;
   font-family: "STIX Two Text", sans-serif;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_tx2 {
   -ms-flex-item-align: center;
@@ -1139,7 +1072,6 @@
   color: #4A4A4A;
   font-family: "Source Sans 3", sans-serif;
   font-size: 15px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_tx3 {
   -ms-flex-item-align: start;
@@ -1148,7 +1080,6 @@
   font-size: 15px;
   color: #404040;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_tx3 {
@@ -1158,7 +1089,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -1170,7 +1100,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -1181,11 +1110,7 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_sel1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_sel1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_sel1_ro {
   display: -webkit-box;
@@ -1619,9 +1544,6 @@
     text-align: center;
   }
 }
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_pr1 {
-  border: 7px solid darkgreen;
-}
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_pr1_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1633,7 +1555,6 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_pr1_ro {
@@ -1647,7 +1568,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -1662,7 +1582,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -1677,7 +1596,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_pr1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_pr1_ro_tx1 {
@@ -1685,10 +1603,6 @@
   color: #404040;
   font-size: 15px;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1_ro {
   display: -webkit-box;
@@ -1701,7 +1615,6 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1_ro {
@@ -1715,7 +1628,6 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -1733,7 +1645,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -1751,7 +1662,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 375px) {
@@ -1769,7 +1679,6 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1_ro_pri1 {
@@ -1778,7 +1687,6 @@
   font-family: "STIX Two Text", sans-serif;
   font-size: 17px;
   margin-right: auto;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1_ro_pri1 {
@@ -1787,7 +1695,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: auto;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -1797,7 +1704,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -1807,7 +1713,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo1_ro_bu1_ro_but1 {
@@ -1847,12 +1752,10 @@
   max-width: 403px;
   border-radius: 9px;
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro:hover {
-  border: 7px solid darkgreen;
   border-radius: 9px;
   cursor: pointer;
   -webkit-box-shadow: 0px 1px 4px 4px black;
@@ -1864,7 +1767,6 @@
       align-self: center;
   width: 190px;
   height: 175px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_tx1 {
   -ms-flex-item-align: center;
@@ -1874,7 +1776,6 @@
   font-size: 17px;
   color: black;
   font-family: "STIX Two Text", sans-serif;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_tx2 {
   -ms-flex-item-align: center;
@@ -1884,7 +1785,6 @@
   color: #4A4A4A;
   font-family: "Source Sans 3", sans-serif;
   font-size: 15px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_tx3 {
   -ms-flex-item-align: start;
@@ -1893,7 +1793,6 @@
   font-size: 15px;
   color: #404040;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_tx3 {
@@ -1903,7 +1802,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -1915,7 +1813,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -1926,11 +1823,7 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_sel1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_sel1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_sel1_ro {
   display: -webkit-box;
@@ -2364,9 +2257,6 @@
     text-align: center;
   }
 }
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_pr1 {
-  border: 7px solid darkgreen;
-}
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_pr1_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2378,7 +2268,6 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_pr1_ro {
@@ -2392,7 +2281,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -2407,7 +2295,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -2422,7 +2309,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_pr1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_pr1_ro_tx1 {
@@ -2430,10 +2316,6 @@
   color: #404040;
   font-size: 15px;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1_ro {
   display: -webkit-box;
@@ -2446,7 +2328,6 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1_ro {
@@ -2460,7 +2341,6 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -2478,7 +2358,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -2496,7 +2375,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 375px) {
@@ -2514,7 +2392,6 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1_ro_pri1 {
@@ -2523,7 +2400,6 @@
   font-family: "STIX Two Text", sans-serif;
   font-size: 17px;
   margin-right: auto;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1_ro_pri1 {
@@ -2532,7 +2408,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: auto;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -2542,7 +2417,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -2552,7 +2426,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl1 .mai_ro_descr2_ro_blo_ro_bl1_blo1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl1_blo2_ro_bu1_ro_but1 {
@@ -2591,7 +2464,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   row-gap: 30px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 {
   display: -webkit-box;
@@ -2602,7 +2474,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 31px;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 {
@@ -2614,7 +2485,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 31px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -2627,7 +2497,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 59px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -2640,7 +2509,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 75px;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro {
@@ -2656,12 +2524,10 @@
       flex-wrap: wrap;
   max-width: 403px;
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro:hover {
-  border: 7px solid darkgreen;
   cursor: pointer;
   border-radius: 9px;
   -webkit-box-shadow: 0px 1px 4px 4px black;
@@ -2673,7 +2539,6 @@
       align-self: center;
   width: 190px;
   height: 175px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_tx1 {
   -ms-flex-item-align: center;
@@ -2683,7 +2548,6 @@
   font-size: 17px;
   color: black;
   font-family: "STIX Two Text", sans-serif;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_tx2 {
   -ms-flex-item-align: center;
@@ -2693,7 +2557,6 @@
   color: #4A4A4A;
   font-family: "Source Sans 3", sans-serif;
   font-size: 15px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_tx3 {
   -ms-flex-item-align: start;
@@ -2702,7 +2565,6 @@
   font-size: 15px;
   color: #404040;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_tx3 {
@@ -2712,7 +2574,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -2724,7 +2585,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -2735,11 +2595,7 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_sel1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_sel1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_sel1_ro {
   display: -webkit-box;
@@ -3173,9 +3029,6 @@
     text-align: center;
   }
 }
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_pr1 {
-  border: 7px solid darkgreen;
-}
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_pr1_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3187,7 +3040,6 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_pr1_ro {
@@ -3201,7 +3053,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -3216,7 +3067,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -3231,7 +3081,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_pr1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_pr1_ro_tx1 {
@@ -3239,10 +3088,6 @@
   color: #404040;
   font-size: 15px;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1_ro {
   display: -webkit-box;
@@ -3255,7 +3100,6 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1_ro {
@@ -3269,7 +3113,6 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -3287,7 +3130,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -3305,7 +3147,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 375px) {
@@ -3323,7 +3164,6 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1_ro_pri1 {
@@ -3332,7 +3172,6 @@
   font-family: "STIX Two Text", sans-serif;
   font-size: 17px;
   margin-right: auto;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1_ro_pri1 {
@@ -3341,7 +3180,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: auto;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -3351,7 +3189,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -3361,7 +3198,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo1_ro_bu1_ro_but1 {
@@ -3400,13 +3236,11 @@
       flex-wrap: wrap;
   max-width: 403px;
   cursor: pointer;
-  border: 7px solid darkgreen;
   border-radius: 9px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro:hover {
-  border: 7px solid darkgreen;
   border-radius: 9px;
   cursor: pointer;
   -webkit-box-shadow: 0px 1px 4px 4px black;
@@ -3418,7 +3252,6 @@
       align-self: center;
   width: 190px;
   height: 175px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_tx1 {
   -ms-flex-item-align: center;
@@ -3428,7 +3261,6 @@
   font-size: 17px;
   color: black;
   font-family: "STIX Two Text", sans-serif;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_tx2 {
   -ms-flex-item-align: center;
@@ -3438,7 +3270,6 @@
   color: #4A4A4A;
   font-family: "Source Sans 3", sans-serif;
   font-size: 15px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_tx3 {
   -ms-flex-item-align: start;
@@ -3447,7 +3278,6 @@
   font-size: 15px;
   color: #404040;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_tx3 {
@@ -3457,7 +3287,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -3469,7 +3298,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -3480,11 +3308,7 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_sel1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_sel1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_sel1_ro {
   display: -webkit-box;
@@ -3918,9 +3742,6 @@
     text-align: center;
   }
 }
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_pr1 {
-  border: 7px solid darkgreen;
-}
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_pr1_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3932,7 +3753,6 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_pr1_ro {
@@ -3946,7 +3766,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -3961,7 +3780,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -3976,7 +3794,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_pr1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_pr1_ro_tx1 {
@@ -3984,10 +3801,6 @@
   color: #404040;
   font-size: 15px;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1_ro {
   display: -webkit-box;
@@ -4000,7 +3813,6 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1_ro {
@@ -4014,7 +3826,6 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -4032,7 +3843,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -4050,7 +3860,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 375px) {
@@ -4068,7 +3877,6 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1_ro_pri1 {
@@ -4077,7 +3885,6 @@
   font-family: "STIX Two Text", sans-serif;
   font-size: 17px;
   margin-right: auto;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1_ro_pri1 {
@@ -4086,7 +3893,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: auto;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -4096,7 +3902,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -4106,7 +3911,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl2 .mai_ro_descr2_ro_blo_ro_bl2_blo1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl2_blo2_ro_bu1_ro_but1 {
@@ -4145,7 +3949,6 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   row-gap: 30px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 {
   display: -webkit-box;
@@ -4156,7 +3959,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 31px;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 {
@@ -4168,7 +3970,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 31px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -4181,7 +3982,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 59px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -4194,7 +3994,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 75px;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro {
@@ -4210,12 +4009,10 @@
   border-radius: 9px;
   max-width: 403px;
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro:hover {
-  border: 7px solid darkgreen;
   cursor: pointer;
   border-radius: 9px;
   -webkit-box-shadow: 0px 1px 4px 4px black;
@@ -4227,7 +4024,6 @@
       align-self: center;
   width: 190px;
   height: 175px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_tx1 {
   -ms-flex-item-align: center;
@@ -4237,7 +4033,6 @@
   font-size: 17px;
   color: black;
   font-family: "STIX Two Text", sans-serif;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_tx2 {
   -ms-flex-item-align: center;
@@ -4247,7 +4042,6 @@
   color: #4A4A4A;
   font-family: "Source Sans 3", sans-serif;
   font-size: 15px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_tx3 {
   -ms-flex-item-align: start;
@@ -4256,7 +4050,6 @@
   font-size: 15px;
   color: #404040;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_tx3 {
@@ -4266,7 +4059,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -4278,7 +4070,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -4289,11 +4080,7 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_sel1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_sel1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_sel1_ro {
   display: -webkit-box;
@@ -4727,9 +4514,6 @@
     text-align: center;
   }
 }
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_pr1 {
-  border: 7px solid darkgreen;
-}
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_pr1_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4741,7 +4525,6 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_pr1_ro {
@@ -4755,7 +4538,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -4770,7 +4552,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -4785,7 +4566,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_pr1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_pr1_ro_tx1 {
@@ -4793,10 +4573,6 @@
   color: #404040;
   font-size: 15px;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1_ro {
   display: -webkit-box;
@@ -4809,7 +4585,6 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1_ro {
@@ -4823,7 +4598,6 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -4841,7 +4615,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -4859,7 +4632,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 375px) {
@@ -4877,7 +4649,6 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1_ro_pri1 {
@@ -4886,7 +4657,6 @@
   font-family: "STIX Two Text", sans-serif;
   font-size: 17px;
   margin-right: auto;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1_ro_pri1 {
@@ -4895,7 +4665,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: auto;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -4905,7 +4674,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -4915,7 +4683,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo1_ro_bu1_ro_but1 {
@@ -4955,12 +4722,10 @@
   max-width: 403px;
   border-radius: 9px;
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro:hover {
-  border: 7px solid darkgreen;
   cursor: pointer;
   -webkit-box-shadow: 0px 1px 4px 4px black;
           box-shadow: 0px 1px 4px 4px black;
@@ -4972,7 +4737,6 @@
       align-self: center;
   width: 190px;
   height: 175px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_tx1 {
   -ms-flex-item-align: center;
@@ -4982,7 +4746,6 @@
   font-size: 17px;
   color: black;
   font-family: "STIX Two Text", sans-serif;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_tx2 {
   -ms-flex-item-align: center;
@@ -4992,7 +4755,6 @@
   color: #4A4A4A;
   font-family: "Source Sans 3", sans-serif;
   font-size: 15px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_tx3 {
   -ms-flex-item-align: start;
@@ -5001,7 +4763,6 @@
   font-size: 15px;
   color: #404040;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_tx3 {
@@ -5011,7 +4772,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -5023,7 +4783,6 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -5034,11 +4793,7 @@
     font-size: 15px;
     color: #404040;
     font-family: "Arimo", sans-serif;
-    border: 7px solid darkgreen;
   }
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_sel1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_sel1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_sel1_ro {
   display: -webkit-box;
@@ -5472,9 +5227,6 @@
     text-align: center;
   }
 }
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_pr1 {
-  border: 7px solid darkgreen;
-}
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_pr1_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5486,7 +5238,6 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_pr1_ro {
@@ -5500,7 +5251,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -5515,7 +5265,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -5530,7 +5279,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_pr1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_pr1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_pr1_ro_tx1 {
@@ -5538,10 +5286,6 @@
   color: #404040;
   font-size: 15px;
   font-family: "Arimo", sans-serif;
-  border: 7px solid darkgreen;
-}
-.mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1_ro {
   display: -webkit-box;
@@ -5554,7 +5298,6 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1_ro {
@@ -5568,7 +5311,6 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -5586,7 +5328,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -5604,7 +5345,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 375px) {
@@ -5622,7 +5362,6 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1_ro_pri1 {
@@ -5631,7 +5370,6 @@
   font-family: "STIX Two Text", sans-serif;
   font-size: 17px;
   margin-right: auto;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1_ro_pri1 {
@@ -5640,7 +5378,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: auto;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -5650,7 +5387,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -5660,7 +5396,6 @@
     font-family: "STIX Two Text", sans-serif;
     font-size: 17px;
     margin-right: 0px;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr2 .mai_ro_descr2_ro .mai_ro_descr2_ro_blo .mai_ro_descr2_ro_blo_ro .mai_ro_descr2_ro_blo_ro_bl3 .mai_ro_descr2_ro_blo_ro_bl3_blo1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1 .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1_ro .mai_ro_descr2_ro_blo_ro_bl3_blo2_ro_bu1_ro_but1 {
@@ -5687,9 +5422,6 @@
   font-size: 17px;
   border: 1px solid #6D80F5;
 }
-.mai .mai_ro .mai_ro_descr3 {
-  border: 7px solid darkgreen;
-}
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5698,10 +5430,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 7px solid darkgreen;
   margin-top: 53px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background-color: #C8CFFB;
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_tx1 {
   -ms-flex-item-align: start;
@@ -5710,7 +5442,6 @@
   color: black;
   font-size: 17px;
   font-family: "STIX Two Text", sans-serif;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_tx1 {
@@ -5720,7 +5451,6 @@
     color: black;
     font-size: 17px;
     font-family: "STIX Two Text", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -5732,7 +5462,6 @@
     color: black;
     font-size: 17px;
     font-family: "STIX Two Text", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -5743,7 +5472,6 @@
     color: black;
     font-size: 17px;
     font-family: "STIX Two Text", sans-serif;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_tx2 {
@@ -5751,13 +5479,13 @@
   font-family: "Source Sans 3", sans-serif;
   color: #575757;
   font-size: 15px;
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1 {
   -ms-flex-item-align: start;
       align-self: flex-start;
   width: 197px;
   height: 27px;
+  background-color: transparent;
   outline: none;
   border-bottom: 1px solid #1F1F1F;
   border: none;
@@ -5770,6 +5498,7 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
+  background-color: transparent;
   color: #545454;
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-moz-placeholder {
@@ -5778,6 +5507,7 @@
   -moz-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
+  background-color: transparent;
   color: #545454;
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1:-ms-input-placeholder {
@@ -5786,6 +5516,7 @@
   -ms-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
+  background-color: transparent;
   color: #545454;
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-ms-input-placeholder {
@@ -5794,6 +5525,7 @@
   -ms-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
+  background-color: transparent;
   color: #545454;
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::placeholder {
@@ -5802,12 +5534,14 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
+  background-color: transparent;
   color: #545454;
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1:focus {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-style: normal;
+  background-color: transparent;
   font-size: 15px;
   font-family: "Source Serif 4", sans-serif;
   color: black;
@@ -5819,6 +5553,7 @@
         align-self: flex-start;
     width: 197px;
     height: 27px;
+    background-color: transparent;
     outline: none;
     border-bottom: 1px solid #1F1F1F;
     border: none;
@@ -5827,6 +5562,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-webkit-input-placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -5835,6 +5571,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-moz-placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -moz-transition: 0.5s;
     transition: 0.5s;
@@ -5843,6 +5580,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1:-ms-input-placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -ms-transition: 0.5s;
     transition: 0.5s;
@@ -5851,6 +5589,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-ms-input-placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -ms-transition: 0.5s;
     transition: 0.5s;
@@ -5859,6 +5598,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -5870,6 +5610,7 @@
     transition: 0.5s;
     font-style: normal;
     font-size: 15px;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: black;
     border-bottom: 1px solid #9E6DF5;
@@ -5881,6 +5622,7 @@
         -ms-grid-row-align: center;
         align-self: center;
     width: 197px;
+    background-color: transparent;
     height: 27px;
     outline: none;
     border-bottom: 1px solid #1F1F1F;
@@ -5891,6 +5633,7 @@
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-webkit-input-placeholder {
     font-style: normal;
     font-size: 15px;
+    background-color: transparent;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
@@ -5899,6 +5642,7 @@
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-moz-placeholder {
     font-style: normal;
     font-size: 15px;
+    background-color: transparent;
     -moz-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
@@ -5907,6 +5651,7 @@
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1:-ms-input-placeholder {
     font-style: normal;
     font-size: 15px;
+    background-color: transparent;
     -ms-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
@@ -5915,6 +5660,7 @@
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-ms-input-placeholder {
     font-style: normal;
     font-size: 15px;
+    background-color: transparent;
     -ms-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
@@ -5923,6 +5669,7 @@
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::placeholder {
     font-style: normal;
     font-size: 15px;
+    background-color: transparent;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
@@ -5935,6 +5682,7 @@
     font-size: 15px;
     font-family: "Source Serif 4", sans-serif;
     color: black;
+    background-color: transparent;
     border-bottom: 1px solid #9E6DF5;
   }
 }
@@ -5946,6 +5694,7 @@
     height: 27px;
     outline: none;
     border-bottom: 1px solid #1F1F1F;
+    background-color: transparent;
     border: none;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -5956,6 +5705,7 @@
     -webkit-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
+    background-color: transparent;
     color: #545454;
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-moz-placeholder {
@@ -5964,6 +5714,7 @@
     -moz-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
+    background-color: transparent;
     color: #545454;
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1:-ms-input-placeholder {
@@ -5972,6 +5723,7 @@
     -ms-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
+    background-color: transparent;
     color: #545454;
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::-ms-input-placeholder {
@@ -5980,6 +5732,7 @@
     -ms-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
+    background-color: transparent;
     color: #545454;
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1::placeholder {
@@ -5988,6 +5741,7 @@
     -webkit-transition: 0.5s;
     transition: 0.5s;
     font-family: "Source Serif 4", sans-serif;
+    background-color: transparent;
     color: #545454;
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_in1:focus {
@@ -5996,12 +5750,10 @@
     font-style: normal;
     font-size: 15px;
     font-family: "Source Serif 4", sans-serif;
+    background-color: transparent;
     color: black;
     border-bottom: 1px solid #9E6DF5;
   }
-}
-.mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 {
-  border: 7px solid darkgreen;
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro {
   display: -webkit-box;
@@ -6014,7 +5766,6 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro {
@@ -6028,7 +5779,6 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -6043,7 +5793,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -6058,7 +5807,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    border: 7px solid darkgreen;
   }
 }
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1 {
@@ -6068,6 +5816,7 @@
   height: 27px;
   outline: none;
   margin-right: auto;
+  background-color: transparent;
   border-bottom: 1px solid #1F1F1F;
   border: none;
   -webkit-transition: 0.5s;
@@ -6076,6 +5825,7 @@
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1::-webkit-input-placeholder {
   font-style: normal;
   font-size: 15px;
+  background-color: transparent;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
@@ -6084,6 +5834,7 @@
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1::-moz-placeholder {
   font-style: normal;
   font-size: 15px;
+  background-color: transparent;
   -moz-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
@@ -6092,6 +5843,7 @@
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1:-ms-input-placeholder {
   font-style: normal;
   font-size: 15px;
+  background-color: transparent;
   -ms-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
@@ -6100,6 +5852,7 @@
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1::-ms-input-placeholder {
   font-style: normal;
   font-size: 15px;
+  background-color: transparent;
   -ms-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
@@ -6108,6 +5861,7 @@
 .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1::placeholder {
   font-style: normal;
   font-size: 15px;
+  background-color: transparent;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-family: "Source Serif 4", sans-serif;
@@ -6117,6 +5871,7 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-style: normal;
+  background-color: transparent;
   font-size: 15px;
   font-family: "Source Serif 4", sans-serif;
   color: black;
@@ -6129,6 +5884,7 @@
     width: 197px;
     height: 27px;
     outline: none;
+    background-color: transparent;
     margin-right: 0px;
     border-bottom: 1px solid #1F1F1F;
     border: none;
@@ -6140,6 +5896,7 @@
     font-size: 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6148,6 +5905,7 @@
     font-size: 15px;
     -moz-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6156,6 +5914,7 @@
     font-size: 15px;
     -ms-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6164,6 +5923,7 @@
     font-size: 15px;
     -ms-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6172,6 +5932,7 @@
     font-size: 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6179,6 +5940,7 @@
     -webkit-transition: 0.5s;
     transition: 0.5s;
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     font-family: "Source Serif 4", sans-serif;
     color: black;
@@ -6193,6 +5955,7 @@
     width: 197px;
     height: 27px;
     outline: none;
+    background-color: transparent;
     margin-right: 0px;
     border-bottom: 1px solid #1F1F1F;
     border: none;
@@ -6204,6 +5967,7 @@
     font-size: 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6212,6 +5976,7 @@
     font-size: 15px;
     -moz-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6220,6 +5985,7 @@
     font-size: 15px;
     -ms-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6228,6 +5994,7 @@
     font-size: 15px;
     -ms-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6236,6 +6003,7 @@
     font-size: 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-family: "Source Serif 4", sans-serif;
     color: #545454;
   }
@@ -6245,6 +6013,7 @@
     font-style: normal;
     font-size: 15px;
     font-family: "Source Serif 4", sans-serif;
+    background-color: transparent;
     color: black;
     border-bottom: 1px solid #9E6DF5;
   }
@@ -6255,6 +6024,7 @@
         align-self: flex-start;
     width: 197px;
     height: 27px;
+    background-color: transparent;
     outline: none;
     margin-right: 0px;
     border-bottom: 1px solid #1F1F1F;
@@ -6264,6 +6034,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1::-webkit-input-placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -6272,6 +6043,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1::-moz-placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -moz-transition: 0.5s;
     transition: 0.5s;
@@ -6280,6 +6052,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1:-ms-input-placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -ms-transition: 0.5s;
     transition: 0.5s;
@@ -6288,6 +6061,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1::-ms-input-placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -ms-transition: 0.5s;
     transition: 0.5s;
@@ -6296,6 +6070,7 @@
   }
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1::placeholder {
     font-style: normal;
+    background-color: transparent;
     font-size: 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -6305,6 +6080,7 @@
   .mai .mai_ro .mai_ro_descr3 .mai_ro_descr3_ro .mai_ro_descr3_ro_blo1 .mai_ro_descr3_ro_blo1_ro .mai_ro_descr3_ro_blo1_ro_tx1:focus {
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    background-color: transparent;
     font-style: normal;
     font-size: 15px;
     font-family: "Source Serif 4", sans-serif;
@@ -6424,9 +6200,6 @@
   }
 }
 
-.foote {
-  border: 7px solid darkgreen;
-}
 .foote .foote_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6435,7 +6208,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: 7px solid darkgreen;
+  background-color: #3E3E3E;
 }
 .foote .foote_ro .foote_ro_tx1 {
   -ms-flex-item-align: start;
@@ -6443,8 +6216,7 @@
   font-style: normal;
   font-size: 17px;
   font-family: "Source Serif Pro", sans-serif;
-  color: black;
-  border: 7px solid darkgreen;
+  color: white;
 }
 @media (max-width: 1024px) {
   .foote .foote_ro .foote_ro_tx1 {
@@ -6453,8 +6225,7 @@
     font-style: normal;
     font-size: 17px;
     font-family: "Source Serif Pro", sans-serif;
-    color: black;
-    border: 7px solid darkgreen;
+    color: white;
   }
 }
 @media (max-width: 768px) {
@@ -6465,8 +6236,7 @@
     font-style: normal;
     font-size: 17px;
     font-family: "Source Serif Pro", sans-serif;
-    color: black;
-    border: 7px solid darkgreen;
+    color: white;
   }
 }
 @media (max-width: 425px) {
@@ -6476,8 +6246,7 @@
     font-style: normal;
     font-size: 17px;
     font-family: "Source Serif Pro", sans-serif;
-    color: black;
-    border: 7px solid darkgreen;
+    color: white;
   }
 }
 .foote .foote_ro .foote_ro_blo1 {
@@ -6494,7 +6263,6 @@
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 7px solid darkgreen;
 }
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro {
   display: -webkit-box;
@@ -6504,7 +6272,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 7px solid darkgreen;
 }
 @media (max-width: 1024px) {
   .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro {
@@ -6515,7 +6282,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 768px) {
@@ -6527,7 +6293,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 7px solid darkgreen;
   }
 }
 @media (max-width: 425px) {
@@ -6539,17 +6304,15 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 7px solid darkgreen;
   }
 }
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1 {
   position: relative;
   font-style: normal;
   font-size: 15px;
-  color: black;
+  color: white;
   font-family: "IBM Plex Mono", sans-serif;
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -6562,7 +6325,7 @@
   bottom: -3px;
   height: 5px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -6575,17 +6338,16 @@
   bottom: -3px;
   height: 5px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1024px) {
   .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1 {
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6598,7 +6360,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6611,7 +6373,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
@@ -6619,10 +6381,9 @@
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6635,7 +6396,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6648,7 +6409,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 425px) {
@@ -6656,10 +6417,9 @@
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6672,7 +6432,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6685,17 +6445,16 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2 {
   position: relative;
   font-style: normal;
   font-size: 15px;
-  color: black;
+  color: white;
   font-family: "IBM Plex Mono", sans-serif;
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -6708,7 +6467,7 @@
   bottom: -3px;
   height: 5px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -6721,17 +6480,16 @@
   bottom: -3px;
   height: 5px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1024px) {
   .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2 {
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6744,7 +6502,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6757,7 +6515,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
@@ -6765,10 +6523,9 @@
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6781,7 +6538,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6794,7 +6551,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 425px) {
@@ -6802,10 +6559,9 @@
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6818,7 +6574,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6831,17 +6587,16 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3 {
   position: relative;
   font-style: normal;
   font-size: 15px;
-  color: black;
+  color: white;
   font-family: "IBM Plex Mono", sans-serif;
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -6854,7 +6609,7 @@
   bottom: -3px;
   height: 5px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -6867,17 +6622,16 @@
   bottom: -3px;
   height: 5px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1024px) {
   .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3 {
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6890,7 +6644,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6903,7 +6657,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
@@ -6911,10 +6665,9 @@
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6927,7 +6680,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6940,7 +6693,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 425px) {
@@ -6948,10 +6701,9 @@
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6964,7 +6716,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -6977,17 +6729,16 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4 {
   position: relative;
   font-style: normal;
   font-size: 15px;
-  color: black;
+  color: white;
   font-family: "IBM Plex Mono", sans-serif;
   cursor: pointer;
-  border: 7px solid darkgreen;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -7000,7 +6751,7 @@
   bottom: -3px;
   height: 5px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -7013,17 +6764,16 @@
   bottom: -3px;
   height: 5px;
   border-radius: 75px;
-  background-color: black;
+  background-color: white;
 }
 @media (max-width: 1024px) {
   .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4 {
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -7036,7 +6786,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -7049,7 +6799,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 768px) {
@@ -7057,10 +6807,9 @@
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -7073,7 +6822,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -7086,7 +6835,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 @media (max-width: 425px) {
@@ -7094,10 +6843,9 @@
     position: relative;
     font-style: normal;
     font-size: 15px;
-    color: black;
+    color: white;
     font-family: "IBM Plex Mono", sans-serif;
     cursor: pointer;
-    border: 7px solid darkgreen;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -7110,7 +6858,7 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -7123,13 +6871,14 @@
     bottom: -3px;
     height: 5px;
     border-radius: 75px;
-    background-color: black;
+    background-color: white;
   }
 }
 
 body::-webkit-scrollbar {
   background-color: transparent;
   border-radius: 75px;
+  width: 13px;
 }
 body::-webkit-scrollbar-track {
   border-radius: 75px;
@@ -7140,9 +6889,6 @@ body::-webkit-scrollbar-thumb {
   background-color: black;
 }
 
-.wrappe .blo {
-  border: 7px solid darkblue;
-}
 .wrappe .blo .blo_ro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7151,10 +6897,6 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 7px solid darkgreen;
-}
-.wrappe .blo .blo_ro .heade {
-  border: 7px solid darkgreen;
 }
 .wrappe .blo .blo_ro .mai {
   -ms-flex-negative: 1;
@@ -7164,8 +6906,4 @@ body::-webkit-scrollbar-thumb {
           flex-grow: 1;
   -ms-flex-preferred-size: 3175px;
       flex-basis: 3175px;
-  border: 7px solid darkgreen;
-}
-.wrappe .blo .blo_ro .foote {
-  border: 7px solid darkgreen;
 }
