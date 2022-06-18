@@ -77,7 +77,21 @@ function bu_or_sal () {
                                                         if(us_use_i1.hasOwnProperty("us_use_i1_ag1") == true && us_use_i1.us_use_i1_ag1 != us_use_i1.us_use_i1_usi1.us_use_i1_usi1_ag1) {
                                                             if(confirm("Ваш id был зарегестрирова")) {
                                                                 if(confirm("Посмотреть профи")) {
-                                                                    
+                                                                    if(confirm("Зравству" + " " + us_use_i1.us_use_i1_nm1 + " " + us_use_i1.us_use_i1_sr1)) {
+                                                                        if(confirm("Чтобы покупать или продать акц")) {
+                                                                            if(confirm("Можно посмотреть список акц")) {
+                                                                                var us_use_sal1 = {
+                                                                                    us_use_sal1_te1:"appl",
+                                                                                    us_use_sal1_te2:"amazo",
+                                                                                    us_use_sal1_te3:"samsu",
+                                                                                    us_use_sal1_te4:"micros",
+                                                                                    us_use_sal1_te5:"windo"
+                                                                                };
+                                                                                if(us_use_sal1.hasOwnProperty("us_use_sal1_te1") == true && us_use_sal1.hasOwnProperty("us_use_sal1_te3") == true) {
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
                                                                 }
                                                             }
                                                         }
