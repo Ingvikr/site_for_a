@@ -6446,6 +6446,40 @@
   color: black;
   border: 7px solid darkgreen;
 }
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_tx1 {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-style: normal;
+    font-size: 17px;
+    font-family: "Source Serif Pro", sans-serif;
+    color: black;
+    border: 7px solid darkgreen;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_tx1 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-style: normal;
+    font-size: 17px;
+    font-family: "Source Serif Pro", sans-serif;
+    color: black;
+    border: 7px solid darkgreen;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_tx1 {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-style: normal;
+    font-size: 17px;
+    font-family: "Source Serif Pro", sans-serif;
+    color: black;
+    border: 7px solid darkgreen;
+  }
+}
 .foote .foote_ro .foote_ro_blo1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6471,6 +6505,42 @@
       -ms-flex-direction: column;
           flex-direction: column;
   border: 7px solid darkgreen;
+}
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 7px solid darkgreen;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 7px solid darkgreen;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 7px solid darkgreen;
+  }
 }
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1 {
   position: relative;
@@ -6507,6 +6577,117 @@
   border-radius: 75px;
   background-color: black;
 }
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx1:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2 {
   position: relative;
   font-style: normal;
@@ -6541,6 +6722,117 @@
   height: 5px;
   border-radius: 75px;
   background-color: black;
+}
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx2:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
 }
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3 {
   position: relative;
@@ -6577,6 +6869,117 @@
   border-radius: 75px;
   background-color: black;
 }
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx3:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
 .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4 {
   position: relative;
   font-style: normal;
@@ -6611,6 +7014,117 @@
   height: 5px;
   border-radius: 75px;
   background-color: black;
+}
+@media (max-width: 1024px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
+@media (max-width: 768px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
+}
+@media (max-width: 425px) {
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4 {
+    position: relative;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    font-family: "IBM Plex Mono", sans-serif;
+    cursor: pointer;
+    border: 7px solid darkgreen;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4::after {
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    width: 0px;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .foote .foote_ro .foote_ro_blo1 .foote_ro_blo1_ro .foote_ro_blo1_tx4:hover::after {
+    content: " ";
+    position: absolute;
+    width: 63px;
+    cursor: pointer;
+    left: 0px;
+    bottom: -3px;
+    height: 5px;
+    border-radius: 75px;
+    background-color: black;
+  }
 }
 
 .wrappe .blo {
