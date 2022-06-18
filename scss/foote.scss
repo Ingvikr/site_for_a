@@ -1,24 +1,21 @@
 .foote {
-    border: 7px solid darkgreen;
     .foote_ro {
         display: flex;
         flex-direction: row;
-        border: 7px solid darkgreen;
+        background-color: #3E3E3E;
         .foote_ro_tx1 {
             align-self: flex-start;
             font-style: normal;
             font-size: 17px;
             font-family: "Source Serif Pro", sans-serif;
-            color: black;
-            border: 7px solid darkgreen;
+            color: white;
 
             @include poi_scree2 {
                 align-self: flex-start;
                 font-style: normal;
                 font-size: 17px;
                 font-family: "Source Serif Pro", sans-serif;
-                color: black;
-                border: 7px solid darkgreen;
+                color: white;
             }
 
             @include poi_scree3 {
@@ -26,8 +23,7 @@
                 font-style: normal;
                 font-size: 17px;
                 font-family: "Source Serif Pro", sans-serif;
-                color: black;
-                border: 7px solid darkgreen;
+                color: white;
             }
 
             @include poi_scree4 {
@@ -35,8 +31,7 @@
                 font-style: normal;
                 font-size: 17px;
                 font-family: "Source Serif Pro", sans-serif;
-                color: black;
-                border: 7px solid darkgreen;
+                color: white;
             }
         }
 
@@ -46,37 +41,31 @@
             width: 1920px;
             justify-content: space-between;
             flex-wrap: wrap;
-            border: 7px solid darkgreen;
             .foote_ro_blo1_ro {
                 display: flex;
                 flex-direction: column;
-                border: 7px solid darkgreen;
 
                 @include poi_scree2 {
                     display: flex;
                     flex-direction: column;
-                    border: 7px solid darkgreen;
                 }
 
                 @include poi_scree3 {
                     display: flex;
                     flex-direction: column;
-                    border: 7px solid darkgreen;
                 }
 
                 @include poi_scree4 {
                     display: flex;
                     flex-direction: column;
-                    border: 7px solid darkgreen;
                 }
                 .foote_ro_blo1_tx1 {
                     position: relative;
                     font-style: normal;
                     font-size: 15px;
-                    color: black;
+                    color: white;
                     font-family: "IBM Plex Mono", sans-serif;
                     cursor: pointer;
-                    border: 7px solid darkgreen;
                     transition: 0.5s;
                     &::after {
                         content: " ";
@@ -87,7 +76,7 @@
                         bottom: -3px;
                         height: 5px;
                         border-radius: 75px;
-                        background-color: black;
+                        background-color: white;
                         transition: 0.5s;
                     }
     
@@ -100,17 +89,16 @@
                         bottom: -3px;
                         height: 5px;
                         border-radius: 75px;
-                        background-color: black;
+                        background-color: white;
                     }
 
                     @include poi_scree2 {
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -121,7 +109,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -134,7 +122,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
 
@@ -142,10 +130,9 @@
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -156,7 +143,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -169,7 +156,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
 
@@ -177,10 +164,9 @@
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -191,7 +177,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -204,7 +190,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
                 }
@@ -213,10 +199,9 @@
                     position: relative;
                     font-style: normal;
                     font-size: 15px;
-                    color: black;
+                    color: white;
                     font-family: "IBM Plex Mono", sans-serif;
                     cursor: pointer;
-                    border: 7px solid darkgreen;
                     transition: 0.5s;
                     &::after {
                         content: " ";
@@ -227,7 +212,7 @@
                         bottom: -3px;
                         height: 5px;
                         border-radius: 75px;
-                        background-color: black;
+                        background-color: white;
                         transition: 0.5s;
                     }
     
@@ -240,17 +225,16 @@
                         bottom: -3px;
                         height: 5px;
                         border-radius: 75px;
-                        background-color: black;
+                        background-color: white;
                     }
 
                     @include poi_scree2 {
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -261,7 +245,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -274,7 +258,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
 
@@ -282,10 +266,9 @@
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -296,7 +279,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -309,7 +292,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
 
@@ -317,10 +300,9 @@
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -331,7 +313,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -344,7 +326,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
                 }
@@ -353,10 +335,9 @@
                     position: relative;
                     font-style: normal;
                     font-size: 15px;
-                    color: black;
+                    color: white;
                     font-family: "IBM Plex Mono", sans-serif;
                     cursor: pointer;
-                    border: 7px solid darkgreen;
                     transition: 0.5s;
                     &::after {
                         content: " ";
@@ -367,7 +348,7 @@
                         bottom: -3px;
                         height: 5px;
                         border-radius: 75px;
-                        background-color: black;
+                        background-color: white;
                         transition: 0.5s;
                     }
     
@@ -380,17 +361,16 @@
                         bottom: -3px;
                         height: 5px;
                         border-radius: 75px;
-                        background-color: black;
+                        background-color: white;
                     }
 
                     @include poi_scree2 {
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -401,7 +381,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -414,7 +394,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
 
@@ -422,10 +402,9 @@
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -436,7 +415,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -449,7 +428,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
 
@@ -457,10 +436,9 @@
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -471,7 +449,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -484,7 +462,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
                 }
@@ -493,10 +471,9 @@
                     position: relative;
                     font-style: normal;
                     font-size: 15px;
-                    color: black;
+                    color: white;
                     font-family: "IBM Plex Mono", sans-serif;
                     cursor: pointer;
-                    border: 7px solid darkgreen;
                     transition: 0.5s;
                     &::after {
                         content: " ";
@@ -507,7 +484,7 @@
                         bottom: -3px;
                         height: 5px;
                         border-radius: 75px;
-                        background-color: black;
+                        background-color: white;
                         transition: 0.5s;
                     }
     
@@ -520,17 +497,16 @@
                         bottom: -3px;
                         height: 5px;
                         border-radius: 75px;
-                        background-color: black;
+                        background-color: white;
                     }
 
                     @include poi_scree2 {
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -541,7 +517,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -554,7 +530,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
 
@@ -562,10 +538,9 @@
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -576,7 +551,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -589,7 +564,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
 
@@ -597,10 +572,9 @@
                         position: relative;
                         font-style: normal;
                         font-size: 15px;
-                        color: black;
+                        color: white;
                         font-family: "IBM Plex Mono", sans-serif;
                         cursor: pointer;
-                        border: 7px solid darkgreen;
                         transition: 0.5s;
                         &::after {
                             content: " ";
@@ -611,7 +585,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                             transition: 0.5s;
                         }
     
@@ -624,7 +598,7 @@
                             bottom: -3px;
                             height: 5px;
                             border-radius: 75px;
-                            background-color: black;
+                            background-color: white;
                         }
                     }
                 }
